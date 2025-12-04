@@ -1,18 +1,33 @@
+
 body {
   font-family: Times New Roman, serif;
   background-color: rgb(212, 255, 252);
-  background-image: url('assets/images/bg.jpg'); /* backgroundi image */
+  background-image: url('assets/images/homepagebg.jpg'); /* backgroundi image */
+}
+
+table {
+  width:100%; 
+}
+
+.left {
+  width:25%;
+  background-color:aliceblue
+}
+
+.right {
+  width:80%;
+  background-color:antiquewhite
 }
 
 h1 {
-  color:rgb(200, 240, 255);
+  color:rgb(69, 110, 125);
   text-align:center;
   font-size:32px;
   font-style:italic;
 }
 
 hr {
-  color:azure
+  color:rgb(211, 255, 255)
 }
 
 h2 {
@@ -20,12 +35,12 @@ h2 {
 }
 
 p {
-  color:rgb(214, 225, 255);
+  color:rgb(36, 59, 122);
   font-size:16px;
 }
 
 a:link {
-  color:aliceblue;
+  color:rgb(79, 173, 255);
 }
 
 a:hover { /*change the color when hover above the link*/
